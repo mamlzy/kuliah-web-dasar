@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Pertemuan 9</title>
+  </head>
+  <body style="box-sizing: border-box">
+    <img
+      src="./images/logo.jpg"
+      alt="Logo Unindra"
+      style="display: block; width: 200px; height: 200px; margin: 0 auto 20px"
+    />
+
+    <table
+      style="width: 100%; max-width: 1100px; margin: 0 auto; font-weight: 600"
+    >
+      <tr>
+        <td colspan="3">
+          <h1
+            style="
+              background-color: gray;
+              color: white;
+              text-align: center;
+              margin: 0;
+            "
+          >
+            INPUT NILAI MAHASISWA
+          </h1>
+        </td>
+      </tr>
+      <tr>
+        <td style="white-space: nowrap">NPM</td>
+        <td style="padding: 0 10px; font-weight: normal">:</td>
+        <td style="width: 100%"><input type="text" style="height: 22px" /></td>
+      </tr>
+      <tr>
+        <td style="white-space: nowrap">Nama Lengkap</td>
+        <td style="padding: 0 10px; font-weight: normal">:</td>
+        <td style="width: 100%">
+          <input type="text" style="height: 22px; width: 100%" />
+        </td>
+      </tr>
+      <tr>
+        <td style="white-space: nowrap">Jenis Kelamin</td>
+        <td style="padding: 0 10px; font-weight: normal">:</td>
+        <td style="width: 100%">
+          <label>
+            <input type="radio" name="gender" value="Laki-laki" /> Laki-laki
+          </label>
+          <label>
+            <input type="radio" name="gender" value="Perempuan" /> Perempuan
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td style="white-space: nowrap">Mata Kuliah</td>
+        <td style="padding: 0 10px; font-weight: normal">:</td>
+        <td style="width: 100%">
+          <select style="height: 22px; width: 180px">
+            <option value="Pemrograman Web Dasar">Pemrograman Web Dasar</option>
+            <option value="Pemrograman Berorientasi Objek">
+              Pemrograman Berorientasi Objek
+            </option>
+            <option value="Sistem Operasi">Sistem Operasi</option>
+          </select>
+          <span>Please select an item.</span>
+        </td>
+      </tr>
+      <tr>
+        <td style="white-space: nowrap">Keterangan</td>
+        <td style="padding: 0 10px; font-weight: normal">:</td>
+        <td style="width: 100%">
+          <textarea rows="5" style="width: 340px"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <h1
+            style="
+              background-color: #515151;
+              color: white;
+              text-align: center;
+              margin: 0;
+            "
+          >
+            NILAI
+          </h1>
+        </td>
+      </tr>
+      <tr>
+        <td style="white-space: nowrap">Tugas</td>
+        <td style="padding: 0 10px; font-weight: normal">:</td>
+        <td style="width: 100%">
+          <input type="number" style="height: 22px; width: 70px" />
+          <i style="font-weight: normal">* Diisi dengan Angka (Misal: 8.82)</i>
+        </td>
+      </tr>
+      <tr>
+        <td style="white-space: nowrap; font-weight: normal">UTS</td>
+        <td style="padding: 0 10px; font-weight: normal">:</td>
+        <td style="width: 100%">
+          <input type="number" style="height: 22px; width: 70px" />
+          <i style="font-weight: normal">* Diisi dengan Angka (Misal: 6.62)</i>
+        </td>
+      </tr>
+      <tr>
+        <td style="white-space: nowrap">UAS</td>
+        <td style="padding: 0 10px; font-weight: normal">:</td>
+        <td style="width: 100%">
+          <input type="number" style="height: 22px; width: 70px" />
+          <i style="font-weight: normal">* Diisi dengan Angka (Misal: 10.0)</i>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <button style="margin-right: 5px">Simpan</button
+          ><button>Batal</button>
+        </td>
+      </tr>
+      <td colspan="3" style="height: 37px; background-color: #515151"></td>
+    </table>
+  </body>
+</html>
